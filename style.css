@@ -1,0 +1,453 @@
+*{
+    margin: 0px ;
+    padding: 0px;
+    scroll-behavior: smooth;
+    
+}
+.header-section {
+    width: auto;
+    height: 50px;
+    background-color: whitesmoke;
+}
+.portfolio h3{
+    color: black;
+    font-weight: bolder;
+    font-size:33px;
+    margin-top: 10px;  
+}
+.main-section{
+    width: auto;
+    height: 400px;
+    background-color:#0D0817;
+}
+.name{
+    color:#136f63;
+}
+
+.center-part{ 
+   text-align: center;
+}
+.center-part h1{
+    color:whitesmoke;
+    word-spacing: 0.2ch;
+    padding-top: 70px;
+    font-size: 70px;
+}
+.center-part h6{
+    color:whitesmoke;
+    padding-top: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+.contact-btn a{
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+}
+.contact-btn{
+    margin-top:30px;
+    display: none;
+}
+.contact-btn a:hover{
+    text-decoration: none;
+    color: #1B1226;
+}
+.contact-btn:focus{
+    box-shadow:none;  
+    outline: none;
+    
+}
+.contact-btn a span i{
+    background-color: whitesmoke;
+    font-size: 22px;
+    padding: 5px;
+    display: none;
+}
+.contact-btn:hover>a i{
+     display: inline;
+    
+}
+.about-section{
+    width: auto;
+    height: 350px;
+    /* background-color:yellow */
+}
+.about-title h2{  
+    font-weight: bolder;
+    font-size: 60px;
+    padding-top: 20px;
+}
+.about-in-details{
+    font-family: 'roboto ', sans-serif;
+    margin-top: 35px;
+    font-size: 21px;
+    word-spacing: 0.01ch;
+    letter-spacing: 0.001ch;
+}
+.skills-section{
+    width:auto;
+    height:820px;
+    /* background-color:red; */
+}
+.skills-title h2{  
+    font-weight: bolder;
+    font-size: 60px;
+    padding-top: 25px;
+}
+
+.skills-details{
+    font-family: 'roboto ', sans-serif;
+    margin-top: 37px;
+    font-size: 20px;
+    word-spacing: 0.01ch;
+    letter-spacing: 0.1ch;
+}
+.progress-bar-section{
+    margin-top: 55px;
+}
+
+.progress-option{
+    margin-top: 35px;
+    height: 50px;
+}
+.progress-option h5{
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(70, 70, 70);
+}
+.progress{
+   width:auto;
+   
+}
+
+.project-section{
+    width: auto;
+    height: 450px;
+    /* background-color: darkgrey; */
+    background-color: #212121;
+}
+
+.project-title h2{
+    font-weight: bolder;
+    font-size: 60px;
+    padding-top: 20px;
+    color:whitesmoke;
+}
+.project-1 {
+    margin-top: 40px;
+    color: whitesmoke;
+}
+.project-1 p{
+    margin-top: 20px;
+    font-family: 'roboto' , sans-serif;
+}
+
+.explore-btn{
+    margin-top: 15px;
+    color: black;
+}
+.explore-btn:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.explore-btn a{
+    color: black;
+    font-weight: bold;
+    font-family: 'roboto' , sans-serif;
+}
+
+.explore-btn a:hover{
+    text-decoration: none;
+    color:black;
+}
+
+.project-2 {
+    margin-top: 40px;
+    color: whitesmoke;
+    /* margin-left: 10px; */
+}
+.project-2 p{
+    margin-top: 20px;
+    font-family: 'roboto' , sans-serif;
+}
+.contact-section{
+    width: auto;
+    height: 450px;
+
+}
+.contact-title h2{
+    font-weight: bolder;
+    font-size: 60px;
+    padding-top: 20px;
+    color:black;
+}
+
+.social-media{
+    margin-top: 35px;
+}
+.social-media i{
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.social-media a{
+    color: black;
+    font-size:20px;
+    font-weight: bold;
+    margin-left: 30px;
+    font-family: 'roboto', sans-serif;
+}
+.social-media a:hover{
+    color:black;
+    text-decoration: none;
+}
+.name-input{
+    margin-left:0px;
+}
+.input-section input{
+    width: 300px;
+    border: none;
+    margin-top: 30px;
+    margin-left: 20px;
+    border-bottom: 1px solid black;
+}
+.input-section input:focus{
+    border:none;
+    outline: none;
+}
+input:focus{
+  
+}
+.submit-btn{
+    background-color: black;
+    color: white;
+    margin-top: 50px;
+}
+
+/* media query */
+
+@media screen and (max-width:995px){
+    .project-section{
+        height:600px;
+    }
+}
+
+@media screen and (max-width:991px){
+    .skills-section{
+        height:900px;
+    }
+}
+@media screen and (max-width:769px){
+    .about-section p{
+        font-size:18px;
+    }
+    .about-section h2{
+       font-size: 50px;
+    }
+    .skills-section p{
+        font-size: 18px;
+    }
+    .project-section{
+        height:700px;
+    }
+    .skills-section h2{
+        font-size: 50px;
+    }
+    .project-section h2{
+        font-size: 50px;
+    }
+    .contact-section h2{
+        font-size: 50px;
+    }
+}
+@media screen and (max-width:766px){
+    .center-part h1{
+        font-size:50px;
+    }
+    .main-section{
+        /* height: 00px; */
+    }
+    .center-part p{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:500px){
+ .about-section h2{
+     font-size: 45px;
+ }
+ .about-section p{
+     font-size: 15px;
+ }
+ .skills-section p{
+    font-size: 15px;
+}
+.skills-section h2{
+    font-size: 45px;
+}
+.project-section h2{
+    font-size: 45px;
+}
+.contact-section h2{
+    font-size: 45px;
+}
+}
+
+@media screen and (max-width:470px){
+    .project-section{
+       height:750px;
+    }
+    .input-section input{
+       width:250px;
+    }
+    project-section p{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:416px){
+    .input-section input{
+        width:200px;
+    }
+}
+
+@media screen and (max-width:401px){
+    .project-section{
+       height:800px;
+    }
+    .progress-option h5{
+        font-size:15px;
+    }
+    .center-part h1{
+        font-size:45px;
+    }
+    .main-section{
+        /* height: 00px; */
+    }
+    .center-part p{
+        font-size: 18px;
+    }
+    .project-section p {
+        font-size: 15px;
+    }
+    .social-media a{
+        font-size:17px;
+    }
+}
+@media screen and (max-width:361px){
+    .input-section input{
+        width:150px;
+    }
+    .social-media a{
+        font-size:15px;
+    }
+}
+
+@media screen and (max-width:316px){
+    .about-section h2{
+        font-size: 40px;
+
+    }
+    .about-section p{
+        font-size: 13px;
+    }
+    .skills-section h2{
+        font-size: 40px;
+    }
+    .skills-section p{
+        font-size:13px;
+    }
+    .project-section p{
+        font-size: 13px;
+    }
+    .project-section h2{
+        font-size: 40px;
+    }
+    .contact-section h2{
+        font-size: 40px;
+    }
+    .center-part h1{
+        font-size:45px;
+    }
+    .center-part p{
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width:315px){
+    .input-section input{
+        width:110px;
+    }
+}
+
+@media screen and (max-width:297px){
+    .contact-section h2{
+        font-size: 35px;
+    }
+    .center-part h1{
+        font-size:35px;
+    }
+    .center-part p{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:280px){
+    .about-section h2{
+        font-size: 35px;
+
+    }
+    .about-section p{
+        font-size: 11px;
+    }
+    .skills-section h2{
+        font-size: 35px;
+    }
+    .skills-section p{
+        font-size:11px;
+    }S
+    .project-section p{
+        font-size: 11px;
+    }
+    .project-section h2{
+        font-size: 35px;
+    }
+    .contact-section h2{
+        font-size: 35px;
+    }
+    .center-part h1{
+        font-size:35px;
+    }
+    .center-part p{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:270px){
+    .input-section input{
+        width:90px;
+    }
+}
+
+@media screen and (max-width:276px){
+    .project-section p{
+        font-size:11px;
+    }
+    
+}
+@media screen and (max-width:244px){
+    .contact-section h2{
+        font-size: 30px;
+    }
+    .center-part h1{
+        font-size:30px;
+    }
+    .center-part p{
+        font-size: 13px;
+    }
+    .contact-btn{
+        display: none;
+    }
+    .main-section{
+        height: 450px;
+    }
+}
